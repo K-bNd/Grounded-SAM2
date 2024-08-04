@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "grounded-sam2"
+version = "0.1.0"
+description = "Unofficial upgrade to the Grounded-Segment-Anything package using SAM2"
+authors = ["KB <kevin-brian.n-diaye@epita.fr>"]
+license = "MIT License"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
